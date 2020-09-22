@@ -3,10 +3,24 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>JobTo.Common</RootNamespace>
+    <Authors>Osni Pezzini Junior</Authors>
+    <Company>SOTech Softwares</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/osnipezzini/jobto-common</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/osnipezzini/jobto-common</PackageProjectUrl>
+    <PackageIcon>icons8-request-service-480.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Shared\icons8-request-service-480.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
