@@ -10,6 +10,7 @@
     <RepositoryUrl>https://github.com/osnipezzini/jobto-common</RepositoryUrl>
     <PackageProjectUrl>https://github.com/osnipezzini/jobto-common</PackageProjectUrl>
     <PackageIcon>icons8-request-service-480.png</PackageIcon>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
